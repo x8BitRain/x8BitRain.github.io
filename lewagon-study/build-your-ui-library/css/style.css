@@ -1,0 +1,41 @@
+  @import url(components/avatar.css);
+      @import url(components/br.css);
+      @import url(components/button.css);
+      @import url(components/card.css);
+      @import url(components/banner.css);
+      @import url();
+      @import url();
+      @import url();
+
+.grid-container {
+  display: grid;
+  height:100%;
+  grid-template-columns: 0.5fr 1.8fr 0.5fr;
+  grid-template-rows: 0.1fr 1fr;
+  grid-template-areas: ". . ." ". . .";
+}
+.grid-container > div {
+	height:100%;
+	text-align: center;
+}
+
+.title {
+	margin-top: 3em;
+}
+
+body {
+	height: 112em;
+}
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ".";
+  height:100%;
+}
+
+.banner-container > div {
+	text-align: center;
+}
+

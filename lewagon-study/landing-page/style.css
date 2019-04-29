@@ -1,0 +1,93 @@
+#song {
+  color: yellow;
+}
+.text-red {
+  color: red;
+}
+p {
+  color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+      *, body, a, b, p, h1, h2, h3, h4, h5, h6, i {font-family: 'Baloo', cursive;}
+
+.uk-container {
+	text-align: center;
+}
+
+/*subtle contrast improvement */
+#header-text {
+	text-shadow: -1px -1px 13px rgba(0, 0, 0, 1);
+}
+
+#l-head {
+	font-size: 60px !important;
+}
+
+/* stolen from stripe :^) */
+
+.fancybutton {
+ 	margin-right: 23px;
+    color: #fff;
+    background: #63ba4a !important;
+    text-shadow: 0 1px 3px rgba(36,180,126,.4);
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    transform:scale(1.3);
+}
+
+.card-grid {
+	display: grid;
+	 grid-template-columns: 1fr 1fr 1fr 1fr;
+	 grid-template-rows: 1fr;
+	 text-align:center;
+	 margin: 30 30 0 30px;
+	 height: 25%;
+
+}
+
+.card {
+	padding:50px;
+	text-align:center;
+	margin: 0 auto;
+}
+
+.card-grid p {
+    margin: 0 0 -72px 0;
+    font-size: 20px;
+}
+
+.card-grid h2 {
+    margin: 0 0 10px 0;
+    
+}
+
+#foot {
+	margin-top:10px;
+	text-align: center !important;
+}
+
+#foot img {
+	margin: 0 30 0 30px;
+	transform:scale(1.3);
+}
+
+#foot-cont {
+	background-color: #f1f1f1;
+}
+
+

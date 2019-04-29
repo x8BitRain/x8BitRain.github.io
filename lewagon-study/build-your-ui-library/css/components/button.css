@@ -1,0 +1,38 @@
+.btn-small {
+	padding:15 30 15 30 !important;
+	color:#3B5997 !important;
+	background-color: #EDF0F9;
+	text-decoration-color: black;
+	font-weight: 900;
+	border-radius: 5%;
+	border:3px solid #C2CFDF;
+
+}
+
+.btn-small img {
+	height:25px;
+	margin-top: -5px;
+
+}
+
+.btn-medium {
+	padding:20 50 20 50 !important;
+	color:#3B5997 !important;
+	background-color: #EDF0F9;
+	text-decoration-color: black;
+	font-weight: 900;
+	font-size: 2.2em;
+	border-radius: 5%;
+	border:4px solid #C2CFDF;
+}
+
+.btn-medium img {
+	height:45px;
+	margin-top: -13px;
+}
+
+.btn-small:hover, .btn-medium:hover {
+	text-decoration: none;
+	background-color:#D5D7E5;
+	border:4px solid #A6B4C4;
+}

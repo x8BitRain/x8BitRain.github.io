@@ -1,0 +1,43 @@
+.banner {
+	height:40em;
+	color:white;
+	background:linear-gradient(135deg,
+							rgba(0,0,0,0.8) 0%,
+							rgba(0,0,0,0.2) 80%),
+							url('../../cover2.jpg');
+background-size: cover;
+background-position: center center;
+overflow: visible;
+display:flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.b-text {
+	color:white;
+}
+
+.banner .card-text {
+	margin:1.8em !important;
+	color: black;
+}
+
+.banner > .card {
+	width:300px;
+	height:400px !important; 
+	margin: 10px;
+
+}
+
+.banner > .card-cover {
+	height:130%;
+}
+
+
+.card-cover-2 {
+		background-image: url('../../man.jpg');
+}
+
+.card-cover-3 {
+		background-image: url('../../kebab.jpg');
+}
