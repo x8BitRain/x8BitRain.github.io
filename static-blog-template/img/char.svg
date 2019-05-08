@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' id="char">
+  <symbol id="s-text">
+    <text text-anchor="middle" x="50%" y="50%" dy=".35em">語</text>
+  </symbol>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+</svg>
