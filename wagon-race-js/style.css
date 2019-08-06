@@ -1,0 +1,28 @@
+/* Your board style here */
+body {
+  overflow: hidden;
+}
+
+.racer_table td {
+  height: 40px;
+  width: 40px;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race {
+  background-image: url(images/player_1.png);
+  height: 192px;
+  width: 200px;
+  background-repeat: no-repeat;
+  margin-left:0;
+}
+#player2_race {
+  background-image: url(images/player_2.png);
+  height: 192px;
+  width: 200px;
+  background-repeat: no-repeat;
+  margin-left:0;
+}
+
